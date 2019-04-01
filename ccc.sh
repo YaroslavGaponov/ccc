@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Author: Yaroslav Gaponov [yaroslav.gaponov@gmail.com]
+
 : ${DIALOG_OK=0}
 : ${DIALOG_CANCEL=1}
 : ${DIALOG_ESC=255}
