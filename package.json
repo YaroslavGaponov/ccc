@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "conventional-changelog-cli": "^2.0.12"
+  },
+  "engines": {
+    "node": ">= 8.11.0"
+  },
+  "scripts": {
+    "changelog": "node ./node_modules/conventional-changelog-cli/cli.js -p angular -i CHANGELOG.md -s -t v -u"
+  }
+}
