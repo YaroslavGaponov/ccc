@@ -6,6 +6,7 @@
     "node": ">= 8.11.0"
   },
   "scripts": {
-    "changelog": "node ./node_modules/conventional-changelog-cli/cli.js -p angular -i CHANGELOG.md -s -t v -u"
+    "changelog": "node ./node_modules/conventional-changelog-cli/cli.js -p angular -i CHANGELOG.md -s -t v -u",
+    "commit": "curl https://raw.githubusercontent.com/YaroslavGaponov/ccc/master/ccc.sh | bash"
   }
 }
